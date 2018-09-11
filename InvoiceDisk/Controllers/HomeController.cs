@@ -21,5 +21,13 @@ namespace InvoiceDisk.Controllers
 
             return View();
         }
+
+        public ActionResult ME()
+        {
+            ViewBag.Title = "Home Page Rukhsar";
+
+            return View();
+        }
+
     }
 }
